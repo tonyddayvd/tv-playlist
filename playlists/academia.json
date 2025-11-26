@@ -1,0 +1,20 @@
+{
+  "settings": {
+    "orientation": "portrait",
+    "transitionDuration": 2
+  },
+  "playlist": [
+    {
+      "id": "video1",
+      "type": "video",
+      "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      "duration": 15
+    },
+    {
+      "id": "img1",
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+      "duration": 10
+    }
+  ]
+}
