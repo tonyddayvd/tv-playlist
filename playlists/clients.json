@@ -1,0 +1,5 @@
+[
+  { "id": "academia", "name": "Academia Centro" },
+  { "id": "clinica", "name": "Clínica Saúde" },
+  { "id": "loja", "name": "Loja do Shopping" }
+]
