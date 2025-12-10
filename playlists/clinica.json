@@ -123,6 +123,12 @@
       "type": "image",
       "url": "https://raw.githubusercontent.com/tonyddayvd/tv-playlist/main/playlists/vid04-11.mp4",
       "duration": 20
+      },
+    {
+      "id": "imag10-12",
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/tonyddayvd/tv-playlist/main/playlists/imag10-12.png",
+      "duration": 20
     }
   ]
 }
