@@ -69,38 +69,6 @@ async function ghFetch(path, options = {}) {
     }
     return response.json();
 }
-
-// --- Dashboard Logic ---
-async function fetchClients() {
-    try {
-        showToast('Carregando clientes...');
-        // List files in 'playlists' folder
-        const files = await ghFetch('playlists');
-
-        const listContainer = document.getElementById('client-list');
-        listContainer.innerHTML = '';
-
-        files.filter(f => f.name.endsWith('.json') && f.name !== 'clients.json' && f.name !== 'admin.json').forEach(file => {
-            const div = document.createElement('div');
-            div.className = 'client-item';
-            div.innerHTML = `
-                <span class="item-name">${file.name.replace('.json', '')}</span>
-                <span>➡️</span>
-            `;
-            div.onclick = () => loadClient(file.name);
-            listContainer.appendChild(div);
-        });
-
-        showScreen('dashboard');
-    } catch (e) {
-        console.error(e);
-        showToast('Erro ao carregar: ' + e.message);
-    }
-}
-
-document.getElementById('btn-refresh-clients').addEventListener('click', fetchClients);
-
-// --- Editor Logic ---
 async function loadClient(filename) {
     try {
         showToast(`Abrindo ${filename}...`);
