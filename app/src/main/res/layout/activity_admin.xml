@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#212121">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#333333"
+            android:orientation="vertical"
+            android:padding="32dp">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="24dp"
+                android:src="@drawable/logo_xingu"
+                android:contentDescription="Logo Xingú"
+                android:scaleType="fitCenter" />
+
+            <Button
+                android:id="@+id/rotateButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:backgroundTint="#2196F3"
+                android:text="GIRAR TELA (ROTATE)"
+                android:textColor="#FFFFFF" />
+
+            <!-- Login Section -->
+            <LinearLayout
+                android:id="@+id/loginSection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/passwordInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:background="#444444"
+                    android:hint="Senha de Admin"
+                    android:inputType="none"
+                    android:focusable="false"
+                    android:clickable="false"
+                    android:padding="12dp"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#888888" />
+
+                <!-- Custom Numeric Keypad -->
+                <GridLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:columnCount="3"
+                    android:rowCount="4"
+                    android:layout_marginBottom="16dp">
+
+                    <Button style="@style/KeypadButton" android:text="1" android:tag="1"/>
+                    <Button style="@style/KeypadButton" android:text="2" android:tag="2"/>
+                    <Button style="@style/KeypadButton" android:text="3" android:tag="3"/>
+                    <Button style="@style/KeypadButton" android:text="4" android:tag="4"/>
+                    <Button style="@style/KeypadButton" android:text="5" android:tag="5"/>
+                    <Button style="@style/KeypadButton" android:text="6" android:tag="6"/>
+                    <Button style="@style/KeypadButton" android:text="7" android:tag="7"/>
+                    <Button style="@style/KeypadButton" android:text="8" android:tag="8"/>
+                    <Button style="@style/KeypadButton" android:text="9" android:tag="9"/>
+                    <Button style="@style/KeypadButton" android:text="C" android:tag="C" android:backgroundTint="#D32F2F"/>
+                    <Button style="@style/KeypadButton" android:text="0" android:tag="0"/>
+                    <Button style="@style/KeypadButton" android:text="⌫" android:tag="DEL" android:backgroundTint="#FF9800"/>
+                </GridLayout>
+
+                <Button
+                    android:id="@+id/loginButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#FF9800"
+                    android:text="ENTRAR" />
+            </LinearLayout>
+
+            <!-- Config Section (Hidden initially) -->
+            <LinearLayout
+                android:id="@+id/configSection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="8dp">
+                    
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Selecione o Cliente:"
+                        android:textColor="#AAAAAA" />
+
+                    <ImageButton
+                        android:id="@+id/refreshClientsButton"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:backgroundTint="#FF9800"
+                        android:src="@android:drawable/ic_popup_sync" />
+                </LinearLayout>
+
+                <CheckBox
+                    android:id="@+id/kioskModeCheckBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Modo Kiosk (Tela Fixada)"
+                    android:textColor="#FFFFFF"
+                    android:checked="true"
+                    android:layout_marginBottom="16dp"/>
+
+                <!-- Container for Client Buttons -->
+                <LinearLayout
+                    android:id="@+id/clientListContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="24dp" />
+
+                <Button
+                    android:id="@+id/saveButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:backgroundTint="#FF9800"
+                    android:text="SALVAR E INICIAR"
+                    android:textColor="#FFFFFF" />
+
+                <Button
+                    android:id="@+id/exitButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#D32F2F"
+                    android:text="SAIR PARA ANDROID"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

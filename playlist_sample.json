@@ -1,0 +1,14 @@
+[
+  {
+    "id": "1",
+    "type": "video",
+    "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+    "duration": 60
+  },
+  {
+    "id": "2",
+    "type": "image",
+    "url": "https://images.unsplash.com/photo-1542281286-9e0a56e2e1a0?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max",
+    "duration": 10
+  }
+]

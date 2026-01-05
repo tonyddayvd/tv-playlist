@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xingú Admin</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Login Screen -->
+    <div id="login-screen" class="screen">
+        <div class="logo-container">
+            <h1>Xingú</h1>
+            <p>Mídia Indoor Manager</p>
+        </div>
+
+        <div class="card">
+            <h2>Acesso Seguro</h2>
+            <p class="hint">Insira seu Token de Acesso do GitHub</p>
+            <input type="password" id="github-token" placeholder="ghp_..." />
+
+            <div class="checkbox-container">
+                <input type="checkbox" id="save-token" checked>
+                <label for="save-token">Salvar neste dispositivo</label>
+            </div>
+
+            <button id="btn-login" class="btn-primary">Entrar</button>
+        </div>
+    </div>
+
+    <!-- Dashboard Screen -->
+    <div id="dashboard-screen" class="screen hidden">
+        <header>
+            <h2>Meus Clientes</h2>
+            <button id="btn-logout" class="btn-icon">🚪</button>
+        </header>
+
+        <div id="client-list" class="list-container">
+            <!-- Clients will be loaded here -->
+            <div class="loading-spinner"></div>
+        </div>
+
+        <button id="btn-refresh-clients" class="fab">🔄</button>
+    </div>
+
+    <!-- Editor Screen -->
+    <div id="editor-screen" class="screen hidden">
+        <header>
+            <button id="btn-back" class="btn-icon">⬅️</button>
+            <h2 id="client-title">Cliente</h2>
+            <button id="btn-save" class="btn-success">Salvar</button>
+        </header>
+
+        <div class="upload-area" id="drop-zone">
+            <p>📂 Toque para adicionar Mídia</p>
+            <input type="file" id="file-input" multiple accept="image/*,video/mp4" hidden>
+        </div>
+
+        <div id="playlist-container" class="list-container">
+            <!-- Playlist items will be loaded here -->
+        </div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast hidden">Mensagem aqui</div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
