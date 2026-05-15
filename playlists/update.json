@@ -2,5 +2,5 @@
   "versionCode": 2,
   "versionName": "1.1",
   "apkUrl": "https://raw.githubusercontent.com/tonyddayvd/tv-playlist/main/playlists/app-release.apk",
-  "changelog": "Aqui você escreve o que mudou. Exemplo: Melhorias no vídeo e barra de progresso adicionada."
+  "changelog": "Modo de atualização de aplicativo automática adicionado!"
 }
