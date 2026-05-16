@@ -1,6 +1,7 @@
 {
-  "versionCode": 2,
-  "versionName": "1.1",
-  "apkUrl": "https://raw.githubusercontent.com/tonyddayvd/tv-playlist/main/playlists/app-release.apk",
-  "changelog": "Modo de atualização de aplicativo automática adicionado!"
+  "settings": {
+    "orientation": "landscape",
+    "transitionDuration": 1000
+  },
+  "playlist": []
 }
