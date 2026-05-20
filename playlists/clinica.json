@@ -23,6 +23,18 @@
       "duration": 20
     },
     {
+      "id": "a1cb6f78-c896-4715-b40a-e2f474df9901.png",
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/tonyddayvd/tv-playlist/main/playlists/a1cb6f78-c896-4715-b40a-e2f474df9901.png",
+      "duration": 10
+    },
+    {
+      "id": "1000323207.jpg",
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/tonyddayvd/tv-playlist/main/playlists/1000323207.jpg",
+      "duration": 20
+    },
+    {
       "id": "imag04-11",
       "type": "image",
       "url": "https://raw.githubusercontent.com/tonyddayvd/tv-playlist/main/playlists/imag04-11.jpeg",
@@ -59,15 +71,15 @@
       "duration": 20
     },
     {
-      "id": "imag10-11",
-      "type": "image",
-      "url": "https://raw.githubusercontent.com/tonyddayvd/tv-playlist/main/playlists/imag10-11.jpeg",
-      "duration": 20
-    },
-    {
       "id": "imag11-11",
       "type": "image",
       "url": "https://raw.githubusercontent.com/tonyddayvd/tv-playlist/main/playlists/imag11-11.jpeg",
+      "duration": 20
+    },
+    {
+      "id": "imag10-11",
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/tonyddayvd/tv-playlist/main/playlists/imag10-11.jpeg",
       "duration": 20
     },
     {
@@ -110,12 +122,6 @@
       "id": "vid04-11",
       "type": "image",
       "url": "https://raw.githubusercontent.com/tonyddayvd/tv-playlist/main/playlists/vid04-11.mp4",
-      "duration": 20
-    },
-    {
-      "id": "1000323207.jpg",
-      "type": "image",
-      "url": "https://raw.githubusercontent.com/tonyddayvd/tv-playlist/main/playlists/1000323207.jpg",
       "duration": 20
     },
     {
