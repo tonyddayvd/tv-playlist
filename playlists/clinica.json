@@ -161,45 +161,27 @@
       "duration": 10
     },
     {
-      "id": "4a458aa9-76a3-4a90-a1fd-2bfd9e7172f7.jpeg",
-      "type": "image",
-      "url": "https://raw.githubusercontent.com/tonyddayvd/tv-playlist/main/playlists/4a458aa9-76a3-4a90-a1fd-2bfd9e7172f7.jpeg",
-      "duration": 10
-    },
-    {
-      "id": "799f6090-20db-4014-ac7c-321c820baff2.jpeg",
-      "type": "image",
-      "url": "https://raw.githubusercontent.com/tonyddayvd/tv-playlist/main/playlists/799f6090-20db-4014-ac7c-321c820baff2.jpeg",
-      "duration": 10
-    },
-    {
-      "id": "img_8468.jpeg",
-      "type": "image",
-      "url": "https://raw.githubusercontent.com/tonyddayvd/tv-playlist/main/playlists/img_8468.jpeg",
-      "duration": 10
-    },
-    {
-      "id": "img_8467.jpeg",
-      "type": "image",
-      "url": "https://raw.githubusercontent.com/tonyddayvd/tv-playlist/main/playlists/img_8467.jpeg",
-      "duration": 10
-    },
-    {
-      "id": "img_8406.jpeg",
-      "type": "image",
-      "url": "https://raw.githubusercontent.com/tonyddayvd/tv-playlist/main/playlists/img_8406.jpeg",
-      "duration": 10
-    },
-    {
       "id": "7e63997b-837a-43a1-aefe-68fe3d986e9d.png",
       "type": "image",
       "url": "https://raw.githubusercontent.com/tonyddayvd/tv-playlist/main/playlists/7e63997b-837a-43a1-aefe-68fe3d986e9d.png",
       "duration": 10
     },
     {
-      "id": "7e63997b-837a-43a1-aefe-68fe3d986e9d.png",
+      "id": "36411926-c8a5-4caa-b66e-c5cac153e440.png",
       "type": "image",
-      "url": "https://raw.githubusercontent.com/tonyddayvd/tv-playlist/main/playlists/7e63997b-837a-43a1-aefe-68fe3d986e9d.png",
+      "url": "https://raw.githubusercontent.com/tonyddayvd/tv-playlist/main/playlists/36411926-c8a5-4caa-b66e-c5cac153e440.png",
+      "duration": 10
+    },
+    {
+      "id": "492fbd550b404227b3356082399ea592.mov",
+      "type": "video",
+      "url": "https://raw.githubusercontent.com/tonyddayvd/tv-playlist/main/playlists/492fbd550b404227b3356082399ea592.mov",
+      "duration": 30
+    },
+    {
+      "id": "9c270de8-db75-4e00-929e-608952db77b8.png",
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/tonyddayvd/tv-playlist/main/playlists/9c270de8-db75-4e00-929e-608952db77b8.png",
       "duration": 10
     }
   ]
